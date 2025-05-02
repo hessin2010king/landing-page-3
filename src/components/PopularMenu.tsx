@@ -12,25 +12,25 @@ const menuItems: MenuItem[] = [
   {
     id: 1,
     name: 'Lorem ipsum',
-    image: './src/assets/first-dish.png',
+    image: '/assets/images/first-dish.png',
     price: '$14.99',
   },
   {
     id: 2,
     name: 'Lorem ipsum',
-    image: './src/assets/second-dish.png',
+    image: '/assets/images/second-dish.png',
     price: '$12.99',
   },
   {
     id: 3,
     name: 'Lorem ipsum',
-    image: './src/assets/third-dish.png',
+    image: '/assets/images/third-dish.png',
     price: '$9.99',
   },
   {
     id: 4,
     name: 'Lorem ipsum',
-    image: './src/assets/forth-dish.png',
+    image: '/assets/images/forth-dish.png',
     price: '$10.99',
   },
 ];

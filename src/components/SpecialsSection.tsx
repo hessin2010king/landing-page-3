@@ -8,7 +8,7 @@ const SpecialsSection: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="relative food-card">
             <img 
-              src="./src/assets/left-dish.png" 
+              src="/assets/images/left-dish.png" 
               alt="Special Salad" 
               className="w-full h-[300px] object-cover"
             />
@@ -20,7 +20,7 @@ const SpecialsSection: React.FC = () => {
           
           <div className="relative food-card">
             <img 
-              src="./src/assets/right-dish.png" 
+              src="/assets/images/right-dish.png" 
               alt="Special Fries" 
               className="w-full h-[300px] object-cover"
             />

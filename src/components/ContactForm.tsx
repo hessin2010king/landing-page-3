@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 
 const ContactForm: React.FC = () => {
   return (
-    <section className="py-16 bg-cover bg-center relative" style={{ backgroundImage: 'url(./src/assets/contact-background.png)' }} id="contact">
+    <section className="py-16 bg-cover bg-center relative" style={{ backgroundImage: 'url(/assets/images/contact-background.png)' }} id="contact">
       <div className="absolute inset-0 overlay-dark"></div>
       
       <div className="container mx-auto px-4 relative z-10">

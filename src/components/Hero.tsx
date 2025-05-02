@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 
 const Hero: React.FC = () => {
   return (
-    <section className="relative h-screen bg-cover bg-center bg-no-repeat" style={{ backgroundImage: 'url(./src/assets/hero-background.png)' }}>
+    <section className="relative h-screen bg-cover bg-center bg-no-repeat" style={{ backgroundImage: 'url(/assets/images/hero-background.png)' }}>
       <div className="absolute inset-0 overlay-dark"></div>
       <div className="container mx-auto px-4 h-full flex items-center justify-center relative z-1">
         <div className="text-center max-w-3xl">

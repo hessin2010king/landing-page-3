@@ -8,7 +8,7 @@ const FeaturedDish: React.FC = () => {
         <div className="flex flex-col md:flex-row">
           <div className="w-full md:w-1/2 mb-6 md:mb-0">
             <img 
-              src="./src/assets/main-dish.jpg" 
+              src="/assets/images/main-dish.jpg" 
               alt="Featured dish" 
               className="w-full h-[400px] object-cover rounded-lg"
             />
