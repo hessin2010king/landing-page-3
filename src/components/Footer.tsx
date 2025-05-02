@@ -2,6 +2,7 @@
 import React from 'react';
 import { Facebook, Instagram, Twitter } from 'lucide-react';
 import logoImage from '../assets/logo.png';
+import footerLogo from '../assets/footer-beside-logo.png';
 
 const Footer: React.FC = () => {
   return (
@@ -11,7 +12,7 @@ const Footer: React.FC = () => {
           <div>
             <div className="flex items-center mb-4">
               <img src={logoImage} alt="Logo" className="h-8 mr-2" />
-              <span className="text-xl">🍔</span>
+              <img src={footerLogo} alt="Footer Logo" className="h-8 mr-2" />
             </div>
             <p className="text-sm mb-4">
               Jalan Semanggi Baru, Telaga <br />

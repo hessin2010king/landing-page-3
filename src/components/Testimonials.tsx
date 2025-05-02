@@ -13,14 +13,14 @@ const testimonials: Testimonial[] = [
   {
     id: 1,
     name: 'Neura Silvana',
-    image: '/placeholder.svg',
+    image: './src/assets/person-one.jpg',
     rating: 5,
     text: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus"',
   },
   {
     id: 2,
     name: 'Azura',
-    image: '/placeholder.svg',
+    image: './src/assets/person-two.jpg',
     rating: 5,
     text: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus"',
   },
@@ -32,11 +32,12 @@ const Testimonials: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row">
           <div className="w-full md:w-1/3 mb-6 md:mb-0">
-            <div className="grid grid-cols-2 gap-2">
-              <img src="/placeholder.svg" alt="Food 1" className="w-full h-32 object-cover rounded-lg" />
-              <img src="/placeholder.svg" alt="Food 2" className="w-full h-32 object-cover rounded-lg" />
-              <img src="/placeholder.svg" alt="Food 3" className="w-full h-32 object-cover rounded-lg" />
-              <img src="/placeholder.svg" alt="Food 4" className="w-full h-32 object-cover rounded-lg" />
+            <div className="flex flex-col gap-2">
+              <img src="./src/assets/aboutus-upper-dish.png" alt="Food 1" className="w-full h-32 object-cover rounded-lg" />
+              <div className="grid grid-cols-2 gap-2">
+                <img src="./src/assets/aboutus-left-dish.png" alt="Food 2" className="w-full h-32 object-cover rounded-lg rotate-180" />
+                <img src="./src/assets/aboutus-right-dish.png" alt="Food 3" className="w-full h-32 object-cover rounded-lg" />
+              </div>
             </div>
           </div>
           
