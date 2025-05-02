@@ -1,73 +1,171 @@
-# Welcome to your Lovable project
+# Elegant Restaurant Landing Page
 
-## Project info
+A sophisticated, modern landing page built with React, TypeScript, and Tailwind CSS for an upscale restaurant. This application showcases culinary excellence through an elegant design and interactive features.
 
-**URL**: https://lovable.dev/projects/6e2ec9e9-8e5b-4a76-b01d-ba0b76ec73cb
+## Project Overview
 
-## How can I edit this code?
+This landing page leverages modern web technologies to create an immersive dining experience. Built with Vite, React, TypeScript, and shadcn-ui components, it features smooth animations, responsive design, and a carefully crafted user interface that highlights the restaurant's offerings.
 
-There are several ways of editing your application.
+## Features
 
-**Use Lovable**
+- Modern responsive design (Mobile, Tablet, Desktop)
+- Interactive menu showcase
+- Animated components with smooth transitions
+- Testimonials carousel
+- Online reservation system
+- Special offers and discounts section
+- Real-time table booking
+- Performance optimized image loading
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/6e2ec9e9-8e5b-4a76-b01d-ba0b76ec73cb) and start prompting.
+## Screenshots
 
-Changes made via Lovable will be committed automatically to this repo.
+### Complete Landing Page
+![Full Landing Page](src/assets/screenshots/restourant-landing-page.png)
+*Comprehensive view of the restaurant landing page showcasing elegant design and culinary excellence*
 
-**Use your preferred IDE**
+### Hero Section
+![Hero Section](src/assets/screenshots/restourant-hero-section.png)
+*Striking hero section featuring signature dishes and ambiance with compelling call-to-action*
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Featured Dishes & Discount
+![Featured Dishes Section](src/assets/screenshots/restourant-featured-dishes-discount-section.png)
+*Showcase of chef's special dishes and current promotional offers*
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Main Dish Menu
+![Main Dish Menu Section](src/assets/screenshots/restourant-main-dish-menu-section.png)
+*Interactive menu presentation with detailed dish descriptions*
 
-Follow these steps:
+### Testimonials
+![Testimonials Section](src/assets/screenshots/restourant-testimonials-section.png)
+*Customer reviews and testimonials with profile images*
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Contact & Footer
+![Contact and Footer Section](src/assets/screenshots/restourant-contact-footer-section.png)
+*Reservation form and comprehensive footer with restaurant information*
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## Project Structure
 
-# Step 3: Install the necessary dependencies.
-npm i
+```
+src/
+├── components/
+│   ├── ui/               # shadcn-ui components
+│   ├── Navbar.tsx        # Navigation menu
+│   ├── Hero.tsx         # Main showcase
+│   ├── Features.tsx     # Restaurant features
+│   ├── FeaturedDish.tsx # Special dishes
+│   ├── PopularMenu.tsx  # Menu items
+│   ├── Discount.tsx     # Special offers
+│   ├── Testimonials.tsx # Customer reviews
+│   ├── ContactForm.tsx  # Reservation form
+│   └── Footer.tsx       # Site footer
+├── assets/
+│   ├── hero-background.png
+│   ├── main-dish.jpg
+│   ├── discount-background.png
+│   ├── contact-background.png
+│   ├── first-dish.png
+│   └── [other images]...
+├── hooks/
+│   ├── use-mobile.tsx
+│   └── use-toast.ts
+├── lib/
+│   └── utils.ts
+└── pages/
+    ├── Index.tsx
+    └── NotFound.tsx
+```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+## Technology Stack
+
+- Vite
+- React 18
+- TypeScript
+- Tailwind CSS
+- shadcn-ui Components
+- React Hooks
+- Modern JavaScript
+
+## Color Scheme
+
+- Primary: #D4B996 (Golden Brown)
+- Secondary: #C1A173 (Warm Tan)
+- Accent: #E6CCB2 (Light Beige)
+- Background: #F7E6D4 (Soft Cream)
+- Text: #2C1810 (Deep Brown)
+
+## Getting Started
+
+1. Clone the repository
+```bash
+git clone [repository-url]
+```
+
+2. Install dependencies
+```bash
+npm install
+```
+
+3. Start development server
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## Customization
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Images
+- Replace images in `src/assets/`
+- Menu images: `first-dish.png` through `forth-dish.png`
+- Background images: `hero-background.png`, `discount-background.png`
+- Testimonial images: `person-one.jpg`, `person-two.jpg`
 
-**Use GitHub Codespaces**
+### Components
+- UI components in `src/components/ui/`
+- Main components in `src/components/`
+- Page layouts in `src/pages/`
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### Styling
+- Tailwind configuration in `tailwind.config.ts`
+- Global styles in `src/index.css`
+- Component-specific styles in respective files
 
-## What technologies are used for this project?
+## Build & Deployment
 
-This project is built with:
+```bash
+# Build for production
+npm run build
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+# Preview production build
+npm run preview
+```
 
-## How can I deploy this project?
+## Performance Features
 
-Simply open [Lovable](https://lovable.dev/projects/6e2ec9e9-8e5b-4a76-b01d-ba0b76ec73cb) and click on Share -> Publish.
+- Image optimization
+- Lazy loading components
+- Route-based code splitting
+- Optimized asset delivery
+- Responsive image loading
+- Modern build tooling
 
-## Can I connect a custom domain to my Lovable project?
+## Browser Support
 
-Yes, you can!
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## Contributing
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+1. Fork the repository
+2. Create your feature branch
+3. Commit your changes
+4. Push to the branch
+5. Create a new Pull Request
+
+## License
+
+[MIT License](LICENSE)
+
+## Contact
+
+For any queries or support, please open an issue in the repository.
