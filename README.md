@@ -20,27 +20,27 @@ This landing page leverages modern web technologies to create an immersive dinin
 ## Screenshots
 
 ### Complete Landing Page
-![Full Landing Page](src/assets/screenshots/restourant-landing-page.png)
+![Full Landing Page](/assets/images/screenshots/restourant-landing-page.png)
 *Comprehensive view of the restaurant landing page showcasing elegant design and culinary excellence*
 
 ### Hero Section
-![Hero Section](src/assets/screenshots/restourant-hero-section.png)
+![Hero Section](/assets/images/screenshots/restourant-hero-section.png)
 *Striking hero section featuring signature dishes and ambiance with compelling call-to-action*
 
 ### Featured Dishes & Discount
-![Featured Dishes Section](src/assets/screenshots/restourant-featured-dishes-discount-section.png)
+![Featured Dishes Section](/assets/images/screenshots/restourant-featured-dishes-discount-section.png)
 *Showcase of chef's special dishes and current promotional offers*
 
 ### Main Dish Menu
-![Main Dish Menu Section](src/assets/screenshots/restourant-main-dish-menu-section.png)
+![Main Dish Menu Section](/assets/images/screenshots/restourant-main-dish-menu-section.png)
 *Interactive menu presentation with detailed dish descriptions*
 
 ### Testimonials
-![Testimonials Section](src/assets/screenshots/restourant-testimonials-section.png)
+![Testimonials Section](/assets/images/screenshots/restourant-testimonials-section.png)
 *Customer reviews and testimonials with profile images*
 
 ### Contact & Footer
-![Contact and Footer Section](src/assets/screenshots/restourant-contact-footer-section.png)
+![Contact and Footer Section](/assets/images/screenshots/restourant-contact-footer-section.png)
 *Reservation form and comprehensive footer with restaurant information*
 
 ## Project Structure
